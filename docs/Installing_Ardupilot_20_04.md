@@ -26,6 +26,7 @@ reload profile
 ## Checkout Latest Copter Build
 ```
 git checkout Copter-4.0.4
+git config --global url."https://".insteadOf git:// # Without it gets an error of authentication and stays processing until error timeout
 git submodule update --init --recursive
 ```
 
